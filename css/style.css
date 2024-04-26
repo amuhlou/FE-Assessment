@@ -11,12 +11,13 @@
 .cards {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   gap: var(--spacing-4);
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   @media screen and (min-width: 1024px) {
@@ -26,7 +27,7 @@
 }
 
 .card {
-  max-inline-size: 32.8rem;
+  max-inline-size: 40rem;
 
   @media screen and (min-width: 1024px) {
     max-width: fit-content;
