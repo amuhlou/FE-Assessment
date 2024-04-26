@@ -1,0 +1,12 @@
+header,
+footer {
+  border-bottom: var(--form-border-width) solid var(--form-border-color);
+  background-color: var(--surface-secondary);
+  padding-block: var(--spacing-2);
+  padding-inline: var(--spacing-2);
+}
+
+footer {
+  border-bottom: none;
+  border-top: var(--form-border-width) solid var(--form-border-color);
+}

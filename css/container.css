@@ -1,0 +1,12 @@
+.fixed-container-l {
+  inline-size: 100%;
+  max-inline-size: 103rem;
+
+  @media (min-width: 0px) {
+    padding-inline: var(--spacing-2);
+  }
+}
+
+.fixed-container-l.center {
+  margin-inline: auto;
+}

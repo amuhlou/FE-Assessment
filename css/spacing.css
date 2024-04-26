@@ -1,0 +1,377 @@
+.flow>*+* {
+  margin-block-start: var(--flow-space, .8em);
+}
+
+.add-top {
+  margin-block-start: var(--layout-l, 6.4rem);
+
+  @media screen and (min-width: 1024px) {
+    margin-block-start: var(--layout-xl, 10.4rem);
+  }
+}
+
+.add-bottom {
+  margin-block-end: var(--layout-l, 6.4rem);
+
+  @media screen and (min-width: 1024px) {
+    margin-block-end: var(--layout-xl, 10.4rem);
+  }
+}
+
+.add-bottom+.add-top {
+  margin-block-start: 0;
+
+  @media screen and (min-width: 1024px) {
+    margin-block-start: 0;
+  }
+}
+
+/* margin & padding classes could go here */
+// ma - "margin-all"
+// mbs - "margin-block-start" aka margin-top ((in ltr language))
+// mb - "margin-block" aka margin top & margin bottom (in ltr language)
+// mbe - "margin-block-end" aka margin-bottom (in ltr language)
+// mi - "margin-inline" aka margin left & margin-right (in ltr language)
+// mie - margin-inline-end aka margin right (in ltr language)
+// mis - margin-inline-start aka margin-left (in ltr language)
+// pa  - padding-all
+// pbs - padding-block-start
+// pbe - padding-block-end
+// pis - padding-inline-start
+// pie - padding-inline-end
+
+.ma-0,
+.mbs-0,
+.mb-0 {
+  margin-block-start: var(--spacing-none);
+}
+
+.ma-0,
+.mbe-0,
+.mb-0 {
+  margin-block-end: var(--spacing-none);
+}
+
+.ma-0,
+.mis-0,
+.mi-0 {
+  margin-inline-start: var(--spacing-none);
+}
+
+.ma-0,
+.mie-0,
+.mi-0 {
+  margin-inline-end: var(--spacing-none);
+}
+
+.pa-0,
+.pbs-0,
+.pb-0 {
+  padding-block-start: var(--spacing-none);
+}
+
+.pa-0,
+.pbe-0,
+.pb-0 {
+  padding-block-end: var(--spacing-none);
+}
+
+.pa-0,
+.pis-0,
+.pi-0 {
+  padding-inline-start: var(--spacing-none);
+}
+
+.pa-0,
+.mie-0,
+.pi-0 {
+  padding-inline-end: var(--spacing-none);
+}
+
+.ma-half,
+.mbs-half,
+.mb-half {
+  margin-block-start: var(--spacing-half);
+}
+
+.ma-half,
+.mbe-half,
+.mb-half {
+  margin-block-end: var(--spacing-half);
+}
+
+.ma-half,
+.mis-half,
+.mi-half {
+  margin-inline-start: var(--spacing-half);
+}
+
+.ma-half,
+.mie-half,
+.mi-half {
+  margin-inline-end: var(--spacing-half);
+}
+
+.pa-half,
+.pbs-half,
+.pb-half {
+  padding-block-start: var(--spacing-half);
+}
+
+.pa-half,
+.pbe-half,
+.pb-half {
+  padding-block-end: var(--spacing-half);
+}
+
+.pa-half,
+.pis-half,
+.pi-half {
+  padding-inline-start: var(--spacing-half);
+}
+
+.pa-half,
+.mie-half,
+.pi-half {
+  padding-inline-end: var(--spacing-half);
+}
+
+.ma-1,
+.mbs-1,
+.mb-1 {
+  margin-block-start: var(--spacing-1);
+}
+
+.ma-1,
+.mbe-1,
+.mb-1 {
+  margin-block-end: var(--spacing-1);
+}
+
+.ma-1,
+.mis-1,
+.mi-1 {
+  margin-inline-start: var(--spacing-1);
+}
+
+.ma-1,
+.mie-1,
+.mi-1 {
+  margin-inline-end: var(--spacing-1);
+}
+
+.pa-1,
+.pbs-1,
+.pb-1 {
+  padding-block-start: var(--spacing-1);
+}
+
+.pa-1,
+.pbe-1,
+.pb-1 {
+  padding-block-end: var(--spacing-1);
+}
+
+.pa-1,
+.pis-1,
+.pi-1 {
+  padding-inline-start: var(--spacing-1);
+}
+
+.pa-1,
+.mie-1,
+.pi-1 {
+  padding-inline-end: var(--spacing-1);
+}
+
+.ma-1-half,
+.mbs-1-half,
+.mb-1-half {
+  margin-block-start: var(--spacing-1-half);
+}
+
+.ma-1-half,
+.mbe-1-half,
+.mb-1-half {
+  margin-block-end: var(--spacing-1-half);
+}
+
+.ma-1-half,
+.mis-1-half,
+.mi-1-half {
+  margin-inline-start: var(--spacing-1-half);
+}
+
+.ma-1-half,
+.mie-1-half,
+.mi-1-half {
+  margin-inline-end: var(--spacing-1-half);
+}
+
+.pa-1-half,
+.pbs-1-half,
+.pb-1-half {
+  padding-block-start: var(--spacing-1-half);
+}
+
+.pa-1-half,
+.pbe-1-half,
+.pb-1-half {
+  padding-block-end: var(--spacing-1-half);
+}
+
+.pa-1-half,
+.pis-1-half,
+.pi-1-half {
+  padding-inline-start: var(--spacing-1-half);
+}
+
+.pa-1-half,
+.mie-1-half,
+.pi-1-half {
+  padding-inline-end: var(--spacing-1-half);
+}
+
+.ma-2,
+.mbs-2,
+.mb-2 {
+  margin-block-start: var(--spacing-2);
+}
+
+.ma-2,
+.mbe-2,
+.mb-2 {
+  margin-block-end: var(--spacing-2);
+}
+
+.ma-2,
+.mis-2,
+.mi-2 {
+  margin-inline-start: var(--spacing-2);
+}
+
+.ma-2,
+.mie-2,
+.mi-2 {
+  margin-inline-end: var(--spacing-2);
+}
+
+.pa-2,
+.pbs-2,
+.pb-2 {
+  padding-block-start: var(--spacing-2);
+}
+
+.pa-2,
+.pbe-2,
+.pb-2 {
+  padding-block-end: var(--spacing-2);
+}
+
+.pa-2,
+.pis-2,
+.pi-2 {
+  padding-inline-start: var(--spacing-2);
+}
+
+.pa-2,
+.mie-2,
+.pi-2 {
+  padding-inline-end: var(--spacing-2);
+}
+
+.ma-3,
+.mbs-3,
+.mb-3 {
+  margin-block-start: var(--spacing-3);
+}
+
+.ma-3,
+.mbe-3,
+.mb-3 {
+  margin-block-end: var(--spacing-3);
+}
+
+.ma-3,
+.mis-3,
+.mi-3 {
+  margin-inline-start: var(--spacing-3);
+}
+
+.ma-3,
+.mie-3,
+.mi-3 {
+  margin-inline-end: var(--spacing-3);
+}
+
+.pa-3,
+.pbs-3,
+.pb-3 {
+  padding-block-start: var(--spacing-3);
+}
+
+.pa-3,
+.pbe-3,
+.pb-3 {
+  padding-block-end: var(--spacing-3);
+}
+
+.pa-3,
+.pis-3,
+.pi-3 {
+  padding-inline-start: var(--spacing-3);
+}
+
+.pa-3,
+.mie-3,
+.pi-3 {
+  padding-inline-end: var(--spacing-3);
+}
+
+.ma-4,
+.mbs-4,
+.mb-4 {
+  margin-block-start: var(--spacing-4);
+}
+
+.ma-4,
+.mbe-4,
+.mb-4 {
+  margin-block-end: var(--spacing-4);
+}
+
+.ma-4,
+.mis-4,
+.mi-4 {
+  margin-inline-start: var(--spacing-4);
+}
+
+.ma-4,
+.mie-4,
+.mi-4 {
+  margin-inline-end: var(--spacing-4);
+}
+
+.pa-4,
+.pbs-4,
+.pb-4 {
+  padding-block-start: var(--spacing-4);
+}
+
+.pa-4,
+.pbe-4,
+.pb-4 {
+  padding-block-end: var(--spacing-4);
+}
+
+.pa-4,
+.pis-4,
+.pi-4 {
+  padding-inline-start: var(--spacing-4);
+}
+
+.pa-4,
+.mie-4,
+.pi-4 {
+  padding-inline-end: var(--spacing-4);
+}

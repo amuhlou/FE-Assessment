@@ -1,0 +1,63 @@
+.cards-wrapper {
+
+}
+
+.cards-wrapper h2 {
+  @media screen and (max-width: 1023px) {
+    text-align: center;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--spacing-4);
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1024px) {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.card {
+  max-inline-size: 32.8rem;
+
+  @media screen and (min-width: 1024px) {
+    max-width: fit-content;
+    display: grid;
+    grid-gap: var(--spacing-4);
+    grid-template-columns: 45rem auto;
+  }
+}
+
+.card .img {
+
+}
+
+.card .info {
+
+}
+
+.card .info h3 {
+  @media screen and (min-width: 1024px) {
+    font-size: 2.6rem;
+  }
+}
+
+.card .info .copy {
+
+}
+
+.card .info .cta {
+
+}
+
+.card .info .cta a {
+
+}

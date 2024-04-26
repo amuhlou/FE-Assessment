@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'mpb';
+  src: url('/iconfont/icomoon.eot?oaancp');
+  src: url('/iconfont/icomoon.eot?oaancp#iefix') format('embedded-opentype'),
+    url('/iconfont/icomoon.ttf?oaancp') format('truetype'),
+    url('/iconfont/icomoon.woff?oaancp') format('woff'),
+    url('/iconfont/icomoon.svg?oaancp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: var(--font-size-base);
+  color: var(--font-color-base);
+  font-family: var(--font-family-base);
+  line-height: var(--line-height-base);
+  position: relative;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h5,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: var(--font-family-heading);
+}
+
+h1,
+.h1 {
+  font-size: 5.2rem;
+  line-height: 1.125;
+  color: var(--heading-color);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  margin-block-end: var(--spacing-2);
+}
+
+h2,
+.h2 {
+  font-size: 2.8rem;
+  line-height: 1.4285714286;
+  color: var(--heading-color);
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-block-end: var(--spacing-2);
+}
+
+h3,
+.h3 {
+  font-size: 2.2rem;
+  line-height: 1.4545454545;
+  color: var(--heading-color);
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-block-end: var(--spacing-2);
+}
+
+h4,
+.h4 {
+  font-size: 1.8rem;
+  line-height: 1.3333333333;
+  color: var(--heading-color);
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-block-end: var(--spacing-2);
+}
+
+h5,
+.h5 {
+  font-size: 1.7rem;
+  line-height: 1.3529411765;
+  color: var(--heading-color);
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-block-end: var(--spacing-2);
+}
+
+h6,
+.h6 {
+  font-size: 1.6rem;
+  line-height: 1.3125;
+  color: var(--heading-color);
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-block-end: var(--spacing-2);
+}
+
+.eyebrow {
+  font-size: calc(var(--font-size-base) * .9);
+  text-transform: uppercase;
+  color: var(--text-neutral);
+}
